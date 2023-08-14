@@ -3,6 +3,6 @@ resource "aws_instance" "myec2" {
     instance_type = "var.ami"
     
     tags = {
-        Name = "${var.environment}-${var.app-name}
+        Name = "${var.environment}-${var.app-name}"
     }
 }
